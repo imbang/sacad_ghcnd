@@ -90,14 +90,6 @@ while True:
 		print "NO"
 		sys.stderr.write(ghcnid+"\n")
 fid.close()
-# 00914690
-#=================================================================
-#filename="ASN00040284.dly" 
-#local_filename = os.path.join("tmp", filename)
-#lf = open(local_filename, "wb")
-#ftp.retrbinary("RETR " + filename, lf.write, 8*1024)
-#lf.close()
-#=================================================================
 ftp.quit()
 
 elapsed_time = time.time() - start_time
